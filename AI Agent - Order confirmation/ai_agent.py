@@ -3,7 +3,7 @@ from groq import Groq
 import json
 import re
 
-client = Groq(api_key="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")
+client = Groq(api_key="your_api_key_here")
 
 system_command = """
 You are an AI chating agent with access to tools. Always reply in valid JSON format as described below.
